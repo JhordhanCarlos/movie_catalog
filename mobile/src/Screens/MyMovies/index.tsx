@@ -81,7 +81,6 @@ const MyListScreen = () => {
             styles.filterButton,
             filter === "toWatch" && styles.activeButton,
           ]}
-          onPress={() => setFilter("toWatch")}
         >
           <Text style={styles.buttonText}>Quero Assistir</Text>
         </TouchableOpacity>
